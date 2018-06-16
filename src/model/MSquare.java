@@ -42,7 +42,7 @@ public class MSquare extends MShape
      */
     @Override
     public double area() {
-        return (4*this.xDelta);
+        return (2*this.xDelta)*(2*this.xDelta);
     }
 
     /**
